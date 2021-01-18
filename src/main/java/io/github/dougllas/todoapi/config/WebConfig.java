@@ -11,7 +11,7 @@ public class WebConfig implements WebMvcConfigurer {
         registry
             .addMapping("/**")
             .allowedOrigins("*")
-            .allowedMethods("GET", "POST", "PUT", "PATCH", "OPTIONS", "HEAD");
+            .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS", "HEAD");
 
     }
 }
